@@ -1,5 +1,4 @@
-Mood Journal Web App,
-this project is a Mood Journal Web App. It helps users record how they feel every day and what they did. The user selects a mood using emojis and writes activities. The app saves everything in the browser.
+This project named "Mood Journal Web App", helps users record how they feel every day and what they did. The user selects a mood using emojis and writes activities. The app saves everything in the browser.
 
 Key Features:
 Save Data: Uses localStorage to keep data even after refresh
