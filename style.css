@@ -1,0 +1,168 @@
+/* Basic page styling */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+
+    /* Gradient background */
+    background: linear-gradient(135deg, #1e1e2f, #2b2b45);
+    color: #eee;
+}
+
+/* Light mode */
+.light {
+    background: #f5f5f5;
+    color: #111;
+}
+
+/* Main container */
+.app {
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Center title */
+h1 {
+    text-align: center;
+}
+
+/* Theme button */
+#toggle-theme {
+    display: block;
+    margin: 10px auto;
+    padding: 8px 14px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* Input card */
+.card {
+    background: rgba(255, 255, 255, 0.08);
+    padding: 20px;
+    border-radius: 16px;
+}
+
+/* Mood buttons grid */
+.mood-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+/* Mood button style */
+.mood-grid button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+    padding: 10px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+/* Selected mood */
+.mood-grid button.selected {
+    background: #6c8cff;
+}
+
+/* Textarea */
+textarea {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Save button */
+#save-btn {
+    width: 100%;
+    margin-top: 10px;
+    padding: 12px;
+    background: #6c8cff;
+    color: white;
+    border-radius: 10px;
+}
+
+/* Search input */
+#search {
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Filter buttons */
+.filter-bar {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+/* Active filter */
+.filter-bar button.active {
+    background: #6c8cff;
+    color: white;
+}
+
+/* Entry cards */
+.entry {
+    margin-top: 10px;
+    padding: 12px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Stats card */
+.stats-card {
+    padding: 20px;
+    border-radius: 16px;
+    margin-top: 20px;
+}
+
+/* Stats grid */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+/* Individual stat box */
+.stat-box {
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Mood distribution row */
+.bar-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Background bar */
+.bar {
+    flex: 1;
+    height: 10px;
+    border-radius: 10px;
+}
+
+/* Filled bar */
+.bar-fill {
+    height: 100%;
+    border-radius: 10px;
+}
+
+/* Sliding tabs container */
+.mood-tabs {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+}
+
+/* Active tab */
+.mood-tabs button.active {
+    background: #6c8cff;
+}
